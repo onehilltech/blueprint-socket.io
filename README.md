@@ -96,6 +96,4 @@ NewsController.prototype.streamNews = function (context) {
 });
 ```
 
----
-
 Happy Coding!
