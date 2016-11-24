@@ -27,7 +27,7 @@ var SocketIO = require ('@onehilltech/blueprint-socket.io');
 
 In the target controller method, we need to listen for the connection. For example,
 assume we are creating a [chat](http://socket.io/get-started/chat/) client using a 
-single-action `ChatController`. In the controller method (i.e., `__invoke`), we 
+[single-action controller](https://github.com/onehilltech/blueprint/wiki/Application%3AControllers#single-action-controller). In the controller method (i.e., `__invoke`), we 
 need to listen the application initialized event. While handling the application
 initialized event, we need to listen for the Socket.IO connection event. The connection
 event will return us a socket we can use to send/receive events.
