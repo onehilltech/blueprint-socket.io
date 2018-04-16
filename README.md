@@ -1,6 +1,8 @@
 blueprint-socket.io
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/onehilltech/blueprint-socket.io.svg)](https://greenkeeper.io/)
+
 A Blueprint.js module for Socket.IO
 
 [![npm version](https://img.shields.io/npm/v/@onehilltech/blueprint-socket.io.svg)](https://www.npmjs.com/package/@onehilltech/blueprint-socket.io)
