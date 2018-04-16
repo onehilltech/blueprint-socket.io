@@ -9,15 +9,15 @@
     "stop-server": "env NODE_ENV=production forever stop app/index.js"
   },
   "dependencies": {
-    "@onehilltech/blueprint": "^1.5.0",
+    "@onehilltech/blueprint": "^3.3.1",
     "@onehilltech/blueprint-socket.io": "file:../../",
     "handlebars": "^4.0.6"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2",
-    "superagent": "^3.0.0",
-    "supertest": "^2.0.1"
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0",
+    "superagent": "^3.8.2",
+    "supertest": "^3.0.0"
   },
   "license": "Apache-2.0",
   "engines": {
